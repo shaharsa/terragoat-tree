@@ -16,6 +16,13 @@ resource azurerm_app_service_plan "example" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "f5871797-060b-42c1-a95e-f9090b56ed77"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -37,6 +44,13 @@ resource azurerm_app_service "app-service1" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "20163505-c921-43bf-a6ce-4dbcf50a4406"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -59,6 +73,13 @@ resource azurerm_app_service "app-service2" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "1c004765-6fe5-4bcb-9035-553f46ad4bb4"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 

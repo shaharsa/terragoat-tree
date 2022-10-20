@@ -12,6 +12,13 @@ resource "azurerm_virtual_network" "example" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "6e4b4d6f-e827-4c74-8375-217e82f0c42a"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -41,6 +48,13 @@ resource "azurerm_network_interface" "ni_linux" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "c193559b-d423-4123-b54b-3ee74a2fb3f0"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -63,6 +77,13 @@ resource "azurerm_network_interface" "ni_win" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "dab0d80e-252a-441b-b4f5-dae6f1baf23e"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -103,6 +124,13 @@ resource azurerm_network_security_group "bad_sg" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "b013aa2c-a9de-445c-a155-809d952235a2"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -119,6 +147,13 @@ resource azurerm_network_watcher "network_watcher" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "06cc0461-37df-40b6-bb07-1dc931944ec0"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -131,5 +166,14 @@ resource azurerm_network_watcher_flow_log "flow_log" {
   retention_policy {
     enabled = false
     days    = 10
+  }
+  tags = {
+    new11 = "new11"
+    new2  = "new2"
+    new3  = "new3"
+    new4  = "new4"
+    new6  = "new6"
+    new7  = "new7"
+    new8  = "new8"
   }
 }

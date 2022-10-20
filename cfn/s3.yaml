@@ -9,7 +9,21 @@ Resources:
       # versioning is great
       VersioningConfiguration:
         Status: Enabled
-
+      Tags:
+        - Key: new8
+          Value: new8
+        - Key: new7
+          Value: new7
+        - Key: new6
+          Value: new6
+        - Key: new4
+          Value: new4
+        - Key: new3
+          Value: new3
+        - Key: new2
+          Value: new2
+        - Key: new11
+          Value: new11
   S3BucketSpaces:
     Type: 'AWS::S3::Bucket'
     Properties:
@@ -20,7 +34,21 @@ Resources:
 
       VersioningConfiguration:
         Status: Enabled
-
+      Tags:
+        - Key: new8
+          Value: new8
+        - Key: new7
+          Value: new7
+        - Key: new6
+          Value: new6
+        - Key: new4
+          Value: new4
+        - Key: new3
+          Value: new3
+        - Key: new2
+          Value: new2
+        - Key: new11
+          Value: new11
   FlowBucket:
     Type: AWS::S3::Bucket
     Properties:
@@ -28,12 +56,40 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-flowlogs"
+        - Key: new7
+          Value: new7
+        - Key: new6
+          Value: new6
+        - Key: new4
+          Value: new4
+        - Key: new3
+          Value: new3
+        - Key: new2
+          Value: new2
+        - Key: new11
+          Value: new11
+        - Key: new8
+          Value: new8
 
   #############
   ###  IAM  ###
   #############
-
   User:
     Type: AWS::IAM::User
     Properties:
       UserName: "user"
+      Tags:
+        - Key: new11
+          Value: new11
+        - Key: new8
+          Value: new8
+        - Key: new7
+          Value: new7
+        - Key: new6
+          Value: new6
+        - Key: new4
+          Value: new4
+        - Key: new3
+          Value: new3
+        - Key: new2
+          Value: new2

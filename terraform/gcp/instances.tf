@@ -30,6 +30,13 @@ resource google_compute_instance "server" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "f3b60229-9824-4961-bc87-3365958badb4"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -44,5 +51,12 @@ resource google_compute_disk "unencrypted_disk" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "db914048-2ec8-4c0f-b081-1a71588b80eb"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }

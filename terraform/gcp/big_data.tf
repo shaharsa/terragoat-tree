@@ -33,5 +33,12 @@ resource google_bigquery_dataset "dataset" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "2e0da432-edec-4ccf-9017-a1dd63a1f8db"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }

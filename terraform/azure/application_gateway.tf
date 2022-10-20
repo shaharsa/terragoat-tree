@@ -62,5 +62,12 @@ resource "azurerm_application_gateway" "network" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "3f62753b-3d20-4fa7-b402-b780234a14d8"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }

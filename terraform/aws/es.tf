@@ -23,6 +23,13 @@ resource "aws_elasticsearch_domain" "monitoring-framework" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "118fd7f8-b3d7-43d9-b418-7dd16a646a4c"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 

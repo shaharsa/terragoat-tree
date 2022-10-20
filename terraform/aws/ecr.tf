@@ -12,6 +12,13 @@ resource aws_ecr_repository "repository" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "62b4c542-6734-4fa4-83b1-bc7f0cc26332"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 

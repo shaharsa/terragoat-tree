@@ -16,6 +16,13 @@ resource "aws_neptune_cluster" "default" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "0d4cbb85-73ed-4ca0-b1da-296e4185f34e"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 
@@ -35,6 +42,13 @@ resource "aws_neptune_cluster_instance" "default" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "9b2b45fd-6f9f-44fd-b8bc-868b1db178b3"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
 

@@ -35,5 +35,12 @@ resource "aws_elb" "weblb" {
     git_org              = "try-bridgecrew"
     git_repo             = "terragoat"
     yor_trace            = "9a19ccdb-03ff-4893-9063-75a03294b33a"
+    new11                = "new11"
+    new2                 = "new2"
+    new3                 = "new3"
+    new4                 = "new4"
+    new6                 = "new6"
+    new7                 = "new7"
+    new8                 = "new8"
   }
 }
